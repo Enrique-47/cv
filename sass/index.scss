@@ -3,17 +3,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .contenedor-fluido{
     margin: 0;
     padding: 0;
 }
     header{
-        background-color: $color-blue;
+        background-color: $color-dark;
+
         nav{
-            background-color: $color-blue;
+            background-color: $color-dark;
         }
         .nav-link{
+            color: white;
+        }
+        
+        .nav-link:hover{
+            color: $color-gray;
+        }
+        .navbar-brand{
+            color: white;
+        }
+
+        .navbar-brand:hover{
+            color: $color-gray;
+        }
+        .icon-nav{
             color: white;
         }
     }

@@ -10,12 +10,24 @@
 }
 
 header {
-  background-color: #448ac6;
+  background-color: #1a1212;
 }
 header nav {
-  background-color: #448ac6;
+  background-color: #1a1212;
 }
 header .nav-link {
+  color: white;
+}
+header .nav-link:hover {
+  color: #bbc0bf;
+}
+header .navbar-brand {
+  color: white;
+}
+header .navbar-brand:hover {
+  color: #bbc0bf;
+}
+header .icon-nav {
   color: white;
 }
 
